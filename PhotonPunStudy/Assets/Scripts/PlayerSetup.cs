@@ -18,6 +18,8 @@ public class PlayerSetup : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+        //DontDestroyOnLoad(this);
+
         if (photonView.IsMine)
         {
             transform.GetComponent<MovementController>().enabled = true;

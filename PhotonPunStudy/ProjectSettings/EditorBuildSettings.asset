@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Accelerometer/AccelerometerTests.unity
     guid: 752be9196636700458bc09fca5895b75
+  - enabled: 1
+    path: Assets/Scenes/SecondScene.unity
+    guid: 5fc89bdd441fe08489d477071d5f1700
   m_configObjects: {}
